@@ -662,3 +662,42 @@ void Cheat::GUI::FadeRGB(int& r, int& g, int& b)
 		b--;
 	}
 }
+
+void GUI::DrawAnimatedSpriteInGame(const char* textureDictionary, const char* baseTextureName,
+	float deltaTime, float x, float y, float width, float height,
+	int r, int g, int b, int a, int textureTransparency) {
+	// Animation parameters
+	const int numFrames = 135;  // Number of frames in the animation (from frame_000_delay-0 to frame_134_delay-0)
+	const float animationFrameRate = 10.0f; // Update this value to set the animation speed (frames per second)
+
+	// Update the current frame index and animation timer
+	static int currentFrameIndex = 0;
+	static float animationTimer = 0.0f;
+
+	// Update the animation timer (deltaTime should be passed to the GUI class update function)
+	animationTimer += deltaTime;
+
+	// Calculate the time for one frame based on the animation frame rate
+	float frameTime = 1.0f / animationFrameRate;
+
+	// Check if it's time to advance to the next frame
+	if (animationTimer >= frameTime) {
+		// Reset the timer
+		animationTimer -= frameTime;
+
+		// Advance to the next frame
+		currentFrameIndex++;
+
+		// Wrap around when reaching the last frame
+		if (currentFrameIndex >= numFrames) {
+			currentFrameIndex = 0;
+		}
+	}
+
+	// Construct the current frame's texture name
+	char frameTextureName[64];
+	sprintf(frameTextureName, "%s_%03d_delay-0", baseTextureName, currentFrameIndex);
+
+	// Call the DrawSpriteInGame function with the current frame's texture
+	DrawSpriteInGame(textureDictionary, frameTextureName, x, y, width, height, r, g, b, a, textureTransparency);
+}
