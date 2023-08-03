@@ -19,7 +19,7 @@ namespace Cheat
         freopen("CONIN$", "r", stdin);
         freopen("CONOUT$", "w", stdout);
         freopen("CONOUT$", "w", stderr);
-        SetConsoleTitleA("TnyavnTos GTA5 Mod Menu");
+        SetConsoleTitleA("G MODZ ON TOP");
         SetConsoleMode(GetStdHandle(STD_INPUT_HANDLE), ENABLE_EXTENDED_FLAGS);
 #undef _CRT_SECURE_NO_WARNINGS
 #endif
@@ -51,12 +51,12 @@ namespace Cheat
 #ifndef LOG_NO_CONSOLE
             std::cout << init_fail.str();    
 #else
-            MessageBoxA(NULL, init_fail.str().c_str(), "TnyavnTos GTA5 Mod Menu", MB_OK);
+            MessageBoxA(NULL, init_fail.str().c_str(), "G MODZ MENU", MB_OK);
 #endif
         }
 
 #ifndef LOG_NO_CONSOLE
-        std::cout << "TnyavnTos GTA5 Mod Menu - version " << build_info::VersionString << std::endl;
+        std::cout << "G MODZ MENU - version " << build_info::VersionString << std::endl;
 #endif
 
         // Cleanup main log files

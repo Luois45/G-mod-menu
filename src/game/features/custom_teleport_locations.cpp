@@ -9,7 +9,7 @@ namespace Cheat
 			// Create file
 			if (!std::filesystem::exists(file_system::paths::CusTelLocFile))
 			{
-				file_system::write_file(file_system::paths::CusTelLocFile, "; TnyavnTos GTA 5 Mod Menu custom teleport locations - contents must always comply with INI file standards");
+				file_system::write_file(file_system::paths::CusTelLocFile, ";G MODZ MENU Mod Menu custom teleport locations - contents must always comply with INI file standards");
 			}
 
 			// Remove INI section if it already exists

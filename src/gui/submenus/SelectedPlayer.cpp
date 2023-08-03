@@ -19,7 +19,7 @@ void GUI::Submenus::SelectedPlayer()
 		NETWORK::NETWORK_SESSION_KICK_PLAYER(Features::SelectedPlayer);
 	GUI::MenuOption("Teleport", Submenus::SelectedPlayerTeleport);
 	GUI::MenuOption("Friendly", Submenus::SelectedPlayerFriendly);
-	GUI::MenuOption("Griefing", Submenus::SelectedPlayerGriefing);
+	GUI::MenuOption("killing", Submenus::SelectedPlayerGriefing);
 	if (GUI::Option("View Social Club Profile", ""))
 	{ 
 		int playerHandle;

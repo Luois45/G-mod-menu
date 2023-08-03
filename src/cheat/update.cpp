@@ -22,8 +22,8 @@ namespace Cheat
 
 		std::string VersionString;
 		int VersionInt = NULL;
-		std::wstring URL = L"https://api.github.com/repos/Svxy/TnyavnTos-GTA5-Mod-Menu/releases/latest";
-		HINTERNET hopen = InternetOpen(L"TnyavnTos-GTA5-Mod-Menu", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL);
+		std::wstring URL = L"https://github.com/golummodz/G-mod-menu/releases/latest";
+		HINTERNET hopen = InternetOpen(L"G-MODZ-GTA5-Mod-Menu", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL);
 		if (hopen)
 		{
 			HINTERNET hinternet = InternetOpenUrl(hopen, URL.c_str(), NULL, 0, INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_SECURE, NULL);

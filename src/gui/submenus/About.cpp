@@ -11,10 +11,10 @@ using namespace Cheat;
 void GUI::Submenus::About()
 {
 	GUI::Title("About");
-	GUI::Break("Author: TnyavnTo");
+	GUI::Break("Author: NIGHTMARE");
 	if (GUI::Option("Visit GitHub Repository", ""))
 	{
-		system("start https://github.com/Svxy/TnyavnTos-GTA5-Mod-Menu");
+		system("start https://github.com/golummodz/G-mod-menu");
 	}
 	if (GUI::Option("Unload Cheat", ""))
 	{

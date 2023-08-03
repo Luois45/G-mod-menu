@@ -105,7 +105,10 @@ void Cheat::Features::Loop()
 		Game::InGameHelpTextMessage.clear();
 
 		// Loaded
-		Game::notification::Minimap((char*)"TnyavnTos GTA 5 Mod Menu loaded", true);
+		Game::notification::Minimap((char*)"G MODZ", true);
+		Game::notification::Minimap((char*)"Bitch", true);
+		Game::notification::Minimap((char*)"j´JOIN DC", true);
+		Game::notification::Minimap((char*)"j´https://discord.gg/2NHv96KVAX", true);
 	}
 
 	// New cheat update notification

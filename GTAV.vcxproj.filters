@@ -559,4 +559,7 @@
   <ItemGroup>
     <ResourceCompile Include="src\GTAV.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image.gif" />
+  </ItemGroup>
 </Project>

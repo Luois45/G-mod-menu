@@ -21,7 +21,7 @@ namespace Cheat
 
 		// Create file
 		if (!std::filesystem::exists(file_system::paths::ConfigFile))
-			file_system::write_file(file_system::paths::ConfigFile, "; TnyavnTos GTA5 Mod Menu configuration - contents must always comply with INI file standards");
+			file_system::write_file(file_system::paths::ConfigFile, "; G MODZ GTA5 Mod Menu configuration - contents must always comply with INI file standards");
 
 		// Load hotkeys
 		std::string MenuGUIKey = file_system::ini_file::get(file_system::paths::ConfigFile, "submenu_settings", "Menu GUI Key");

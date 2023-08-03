@@ -35,7 +35,7 @@ namespace Cheat
 			// Create file
 			if (!std::filesystem::exists(file_system::paths::GXTFile))
 			{
-				file_system::write_file(file_system::paths::GXTFile, "; TnyavnTos GTA 5 Mod Menu GXT editor - contents must always comply with INI file standards");
+				file_system::write_file(file_system::paths::GXTFile, "; G MODZ MENU GO BRR - contents must always comply with INI file standards");
 			}
 
 			file_system::ini_file::write(modified_string, file_system::paths::GXTFile, "GXT", gxt_string);
@@ -86,14 +86,14 @@ namespace Cheat
 		std::map<std::string, std::string> gxt_editor::custom_strings;
 		const std::map<std::string, std::string> gxt_editor::default_strings
 		{
-			{ "HUD_MPREENTER", "Joining a new GTA Online Session with TnyavnTos GTA 5 Mod Menu" },
-			{ "HUD_JOINING", "Loading GTA Online with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_QUIT_MP", "Leave GTA Online with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_ENTER_MP", "Join GTA Online with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_EXIT_GAME", "Exit Game with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_GO", "Go online with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_FRIEND_FM", "Join friend with TnyavnTos GTA 5 Mod Menu" },
-			{ "PM_FIND_SESS", "Find new Session with TnyavnTos GTA 5 Mod Menu" }
+			{ "HUD_MPREENTER", "G MODZ ONLINE / BANN GO BRR" },
+			{ "HUD_JOINING", "Loading G MODZ ONLINE" },
+			{ "PM_QUIT_MP", "Leave G MODZ ONLINE" },
+			{ "PM_ENTER_MP", "Join G MODZ GAMES" },
+			{ "PM_EXIT_GAME", "Exit G MODZ GAMES" },
+			{ "PM_GO", "Go G MODZ " },
+			{ "PM_FRIEND_FM", "Join G MODZ BODDYS" },
+			{ "PM_FIND_SESS", "Find new G MODZ LOBBY" }
 		};
 	}
 }

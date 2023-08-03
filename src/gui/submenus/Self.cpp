@@ -37,7 +37,7 @@ void GUI::Submenus::Self()
 			PLAYER::SET_RUN_SPRINT_MULTIPLIER_FOR_PLAYER(PLAYER::PLAYER_ID(), 1.f);
 		}
 	}
-	if (GUI::StringVector("Invisibility", { "None", "Others", "Local", "Others + local" }, Features::SelfInvisiblityVectorPosition, "Others: you are invisible for other players\nLocal: you are invisible only to yourself", SELECTABLE_RETURN_VALUE_CHANGE))
+	if (GUI::StringVector("YOURE DAD MODE", { "None", "Others", "Local", "Others + local" }, Features::SelfInvisiblityVectorPosition, "Others: you are invisible for other players\nLocal: you are invisible only to yourself", SELECTABLE_RETURN_VALUE_CHANGE))
 	{
 		// Reset at state change
 		NETWORK::_NETWORK_SET_ENTITY_INVISIBLE_TO_NETWORK(PLAYER::PLAYER_PED_ID(), false);
