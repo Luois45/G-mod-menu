@@ -95,5 +95,9 @@ namespace Cheat
 		bool FloatVector(std::string option, std::vector<float> Vector, int& position, int BitFlags = NULL);
 		bool StringVector(std::string option, std::vector<std::string> Vector, int& position, std::string InformationText, int BitFlags = NULL);
 		void ShowPlayerInformationBox(Player PlayerID);
+		void DrawAnimatedSpriteInGame(const char* textureDictionary, const char* baseTextureName,
+			float deltaTime, float x, float y, float width, float height,
+			int r, int g, int b, int a, int textureTransparency);
 	}
+	void Title(std::string title, float deltaTime); // Add the deltaTime parameter to the Title function
 }

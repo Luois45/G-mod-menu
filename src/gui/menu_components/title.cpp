@@ -7,14 +7,20 @@ using namespace Cheat;
 
 void GUI::Title(std::string title)
 {
+	// Calculate deltaTime
+	static int previousTime = MISC::GET_GAME_TIMER();
+	int currentTime = MISC::GET_GAME_TIMER();
+	float deltaTime = (currentTime - previousTime) / 1000.0f; // Convert milliseconds to seconds
+	previousTime = currentTime;
+
 	// Header background
 	if (ShowHeaderBackground)
 		DrawRectInGame({ PrimaryColor.r, PrimaryColor.g, PrimaryColor.b, HeaderBackgroundTransparency }, { guiX, GUI::guiY - SelectableHeight - 0.181f }, { guiWidth, SelectableHeight + 0.045f });
-	
-	// Header texture
+
+	// Header texture (animated)
 	if (ShowHeaderTexture)
-		DrawSpriteInGame("Textures", "HeaderDefaultTransparent", guiX, GUI::guiY - SelectableHeight - 0.181f, guiWidth, SelectableHeight + 0.045f, 0, 255, 255, 255, HeaderTextureTransparency);
-	
+		DrawAnimatedSpriteInGame("Textures", "frame", deltaTime, guiX, GUI::guiY - SelectableHeight - 0.181f, guiWidth, SelectableHeight + 0.045f, 0, 255, 255, 255, HeaderTextureTransparency);
+
 	// Draw title text & rectangle
 	DrawTextInGame(title, TextColorAndFont, { GUI::guiX, GUI::guiY - 0.174f }, { 0.40f, 0.38f }, true, true);
 	DrawRectInGame({ 0, 0, 0, TitleAndEndTransparency }, { guiX, GUI::guiY - 0.1585f }, { guiWidth, SelectableHeight });
@@ -39,7 +45,7 @@ void GUI::Title(std::string title)
 	PAD::DISABLE_CONTROL_ACTION(2, INPUT_REPLAY_START_STOP_RECORDING, true);
 	PAD::DISABLE_CONTROL_ACTION(2, INPUT_REPLAY_START_STOP_RECORDING_SECONDARY, true);
 	PAD::DISABLE_CONTROL_ACTION(2, INPUT_VEH_PREV_RADIO, true);
-	
+
 	// Set current submenu
 	CurrentSubmenu = title;
 }
