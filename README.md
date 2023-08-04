@@ -2,13 +2,13 @@
 
 <br>
 
-<h2 align=center>TnyavnTo's GTA 5 Mod Menu</h2>
+<h2 align=center>G MODZ GTA 5 Mod Menu</h2>
 
 <h4 align=center><sup>Now has Nightclub Safe loop - $250k/4sec</sup></h4>
 
 <p align=center><sup>NOTE: Recovery Submenu locked until Safe Mode is turned off in settings.</sup></p>
 
-<p align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/latest'>latest menu release</a>.
+<p align=center>Download <a href='https://discord.gg/2NHv96KVAX'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/latest'>latest menu release</a>.
 
 <br>
 
@@ -21,7 +21,7 @@
 
 <br>
 
-<h3 align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/tag/v1.0.0.0'>latest menu release</a>.</h3>
+<h3 align=center>Download <a href='[https://github.com/svxy/tnyavntos-module-injector](https://discord.gg/2NHv96KVAX)'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/tag/v1.0.0.0'>latest menu release</a>.</h3>
 
 ___
 
