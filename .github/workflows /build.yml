@@ -1,4 +1,4 @@
-name: Build with DLL Upload-
+name: Build with DLL Upload
 on:
   push:
   pull_request:
