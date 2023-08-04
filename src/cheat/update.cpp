@@ -22,8 +22,8 @@ namespace Cheat
 
 		std::string VersionString;
 		int VersionInt = NULL;
-		std::wstring URL = L"https://github.com/golummodz/G-mod-menu/releases/latest";
-		HINTERNET hopen = InternetOpen(L"G-MODZ-GTA5-Mod-Menu", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL);
+		std::wstring URL = L"https://api.github.com/repos/golummodz/G-mod-menu/releases/latest";
+		HINTERNET hopen = InternetOpen(L"G-mod-menu", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL);
 		if (hopen)
 		{
 			HINTERNET hinternet = InternetOpenUrl(hopen, URL.c_str(), NULL, 0, INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_SECURE, NULL);
@@ -46,7 +46,7 @@ namespace Cheat
 
 				if (reader->parse(buffer.c_str(), buffer.c_str() + buffer.length(), &JsonData, &JsonError))
 				{
-					VersionString = JsonData["name"].asString();
+					VersionString = JsonData["tag_name"].asString();
 					helper::remove_chars(VersionString, "v.");
 					VersionInt = helper::StringToInt(VersionString);
 				}
