@@ -32,7 +32,7 @@ void fibermain::func_(LPVOID lpParameter)
 		if (LocalVersion < LatestVersion)
 		{
 			update_check::IsAvailable = true;
-			LOG_WARN("A newer version of the cheat is available on GitHub");
+			LOG_WARN("A newer version of G MODZ IS THERE on the G MODZ MENU discord server");
 		}
 		else
 		{
