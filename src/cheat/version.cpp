@@ -2,6 +2,6 @@
 
 namespace Cheat
 {
-    const char* build_info::VersionString = "1.0.1.0";
-    const int build_info::VersionInt = 1010;
+    const char* build_info::VersionString = "1.0.0";
+    const int build_info::VersionInt = 100;
 }
