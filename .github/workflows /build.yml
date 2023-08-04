@@ -1,0 +1,19 @@
+name: Build with DLL Upload
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.1
+    - name: Build DLL
+      run: msbuild GTAV.vcxproj -t:rebuild -property:Configuration=Release -property:Platform=x64
+    - name: Upload DLL
+      uses: actions/upload-artifact@v2
+      with:
+        name: G-MOD-MENU.dll
+        path: path/to/your/G-MOD-MENU.dll
