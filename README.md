@@ -1,7 +1,3 @@
-<h3 align=center><b><sup>🚫Unfortunately TnyavnTos GTA 5 Mod Menu and TnyavnTos Module Injector will no longer be updated or managed🚫</sup></b></h3>
-
-<br>
-
 <h4 align=center>Menu Status: <b style="color: green;">✔️ Working</b></h4>
 
 <br>
@@ -12,20 +8,20 @@
 
 <p align=center><sup>NOTE: Recovery Submenu locked until Safe Mode is turned off in settings.</sup></p>
 
-<p align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/Svxy/TnyavnTos-GTA5-Mod-Menu/releases/latest'>latest menu release</a>.
+<p align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/latest'>latest menu release</a>.
 
 <br>
 
-<p align=center><img alt="version" src="https://img.shields.io/github/v/release/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="last commit" src="https://img.shields.io/github/last-commit/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="Repo stars" src="https://img.shields.io/github/stars/svxy/TnyavnTos-GTA5-Mod-Menu?style=for-the-badge"> <img alt="Downloads" src="https://img.shields.io/github/downloads/svxy/TnyavnTos-GTA5-Mod-Menu/v1.0.1.0/total?style=for-the-badge&logo=github"></p>
+<p align=center><img alt="version" src="https://img.shields.io/github/v/release/golummodz/G-mod-menu?style=for-the-badge"> <img alt="last commit" src="https://img.shields.io/github/last-commit/golummodz/G-mod-menu?style=for-the-badge"> <img alt="Repo stars" src="https://img.shields.io/github/stars/golummodz/G-mod-menu?style=for-the-badge"> <img alt="Downloads" src="https://img.shields.io/github/downloads/golummodz/G-mod-menu/latest/total?style=for-the-badge&logo=github"></p>
 
 <br>
 
-<p align=center><img src='https://github.com/Svxy/TnyavnTos-GTA5-Mod-Menu/blob/main/resources/preview_image.png?raw=true' height=420px></p>
+<p align=center><img src='https://github.com/golummodz/G-mod-menu/blob/main/resources/preview_image.png?raw=true' height=420px></p>
 
 
 <br>
 
-<h3 align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/Svxy/TnyavnTos-GTA5-Mod-Menu/releases/tag/v1.0.0.0'>latest menu release</a>.</h3>
+<h3 align=center>Download <a href='https://github.com/svxy/tnyavntos-module-injector'>my injector</a> and the <a href='https://github.com/golummodz/G-mod-menu/releases/tag/v1.0.0.0'>latest menu release</a>.</h3>
 
 ___
 
